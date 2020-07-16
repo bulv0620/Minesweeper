@@ -12,8 +12,8 @@ public class Minesweeper extends JFrame implements ActionListener, MouseListener
 
     // 定义属性
     // 雷和旗子图标
-    ImageIcon mineIcon = new ImageIcon("C:\\Users\\Feng\\Desktop\\JAVA\\Mine.png");
-    ImageIcon flagIcon = new ImageIcon("C:\\Users\\Feng\\Desktop\\JAVA\\Flag.png");
+    ImageIcon mineIcon = new ImageIcon("C:\\Users\\FENG\\Desktop\\code\\Minesweeper\\Mine.png");
+    ImageIcon flagIcon = new ImageIcon("C:\\Users\\FENG\\Desktop\\code\\Minesweeper\\Flag.png");
     // 雷数
     int MINE = 0;
     int REMINE = 0;
@@ -127,7 +127,7 @@ public class Minesweeper extends JFrame implements ActionListener, MouseListener
         diy.addActionListener(this);
         // 窗口部署
         setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
-        setSize(NUM_y * 42 + 5, NUM_x * 42 + 7);
+        setSize(NUM_y * 43 + 5, NUM_x * 43 + 7);
         setLocationRelativeTo(null);
         setResizable(false);
         setIconImage(mineIcon.getImage());
