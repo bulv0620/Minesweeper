@@ -116,7 +116,6 @@ public class Minesweeper extends JFrame implements ActionListener, MouseListener
         // 组装整体
         getContentPane().add("Center", panel);
         getContentPane().add("North", bar);
-
         // 事件
         newGame.addActionListener(this);
         rank.addActionListener(this);
