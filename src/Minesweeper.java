@@ -12,8 +12,8 @@ public class Minesweeper extends JFrame implements ActionListener, MouseListener
 
     // 定义属性
     // 雷和旗子图标
-    ImageIcon mineIcon = new ImageIcon("C:\\Users\\FENG\\Desktop\\Minesweeper\\Mine.png");
-    ImageIcon flagIcon = new ImageIcon("C:\\Users\\FENG\\Desktop\\Minesweeper\\Flag.png");
+    ImageIcon mineIcon = new ImageIcon("Mine.png");
+    ImageIcon flagIcon = new ImageIcon("Flag.png");
     // 雷数
     int MINE = 0;
     int REMINE = 0;
@@ -60,7 +60,7 @@ public class Minesweeper extends JFrame implements ActionListener, MouseListener
         super("扫雷");
         MINE = mine;
         REMINE = mine;
-        remain.setText(String.valueOf(MINE));//剩余雷数
+        remain.setText(String.valueOf(MINE));// 剩余雷数
         mapsize.setText(NUM_x + "×" + NUM_y + " #" + MINE); // 地图大小、雷数
         // 按钮组
         jb = new JButton[NUM_x][NUM_y];
